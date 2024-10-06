@@ -1,0 +1,85 @@
+/* General styling for the page */
+body {
+    background-color: #4169e1; /* Royal blue background */
+    font-family: 'Kanit', sans-serif;
+    color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    cursor: url('heart-cursor.png'), auto; /* Heart-shaped cursor */
+}
+
+/* Slideshow styling */
+.slideshow-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    position: relative;
+}
+
+.slide {
+    display: none;
+}
+
+img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+/* Countdown Timer */
+#countdown-timer {
+    font-size: 1.5rem;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+/* Reasons I Love You Scrolling Section */
+.reasons {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin: 20px 0;
+    color: #d0e7ff;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    height: 150px;
+    overflow-y: auto;
+}
+
+/* Infinite text styling */
+.container {
+    text-align: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    margin: 20px auto;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin: 10px 0;
+    color: #d0e7ff;
+}
+
+/* Counter styling */
+.counter {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    font-size: 1.2rem;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+}
